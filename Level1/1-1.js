@@ -1,6 +1,9 @@
-function solution(s) {
-  return s.split("").sort().reverse().join("");
-}
-
-let s = "Zbcdefg";
-console.log(solution(s));
+fetch("https://www.error.www")
+  .then((response) => response.text())
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((error) => {
+    console.log("Hello");
+    throw new Error("test");
+  });
