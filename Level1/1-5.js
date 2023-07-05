@@ -6,7 +6,6 @@ function solution(dartResult) {
     //console.log("111111111111111: " + dartResult.length);
     if (!isNaN(dartResult[i])) {
       num = Number(dartResult[i - 1]) === 1 ? 10 : Number(dartResult[i]);
-      // console.log(num);
     }
 
     if (dartResult[i] === "S") arr.push(num);
