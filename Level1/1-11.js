@@ -7,7 +7,7 @@ function solution(babbling) {
     word = babbling[i];
 
     for (let j = 0; j < arr.length; j++) {
-      //word 안에서 arr[j]에 해당하는 문자열을 ' '로 치환
+      //word 안에서 arr[j]에 해당하는 문자열을 ' ' 치환
       word = word.replaceAll(arr[j], " ");
     }
 
